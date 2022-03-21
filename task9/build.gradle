@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+sourceCompatibility = 16
+targetCompatibility = 16
+
+sourceSets {
+    main {
+        java {
+            srcDirs 'src/main/java/penzastreetstudios/'
+        }
+    }
+}
+
+jar {
+    archiveBaseName = "archive"
+    manifest {
+        attributes("Main-Class": "com.penzastreetstudios.Main")
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+task copyJar(type: Copy) {
+    from jar
+    into 'docker'
+}
+
+tasks.register("hello") {
+    dependsOn copyJar
+    finalizedBy {
+        Docker
+    }
+}
+
+task Docker(type: Exec) {
+    Runtime.runtime.exec('docker build -t tag1 .\\docker')
+    commandLine 'docker', 'run', 'tag1'
+}
+
