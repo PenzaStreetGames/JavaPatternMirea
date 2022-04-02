@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDate;
+import java.util.Objects;
 
 @Setter
 @Getter
@@ -18,5 +19,18 @@ public class University {
     @Override
     public String toString() {
         return name + " est. " + creationDate.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        University that = (University) o;
+        return Objects.equals(getName(), that.getName()) && Objects.equals(getCreationDate(), that.getCreationDate());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getName(), getCreationDate());
     }
 }
