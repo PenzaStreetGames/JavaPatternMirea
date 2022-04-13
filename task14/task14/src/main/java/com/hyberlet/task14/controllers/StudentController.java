@@ -17,8 +17,7 @@ public class StudentController {
     }
 
     @RequestMapping(value = "/add_student/{firstName}/{middleName}/{lastName}", method = RequestMethod.GET)
-    public Student addStudent(@PathVariable String firstName, @PathVariable String middleName, @PathVariable String lastName) {
-        Student student = new Student(firstName, middleName, lastName);
+    public Student addStudent(@RequestBody Student student) {
         students.add(student);
         return student;
     }

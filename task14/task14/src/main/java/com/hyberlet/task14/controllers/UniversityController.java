@@ -1,6 +1,5 @@
 package com.hyberlet.task14.controllers;
 
-import com.hyberlet.task14.entities.Student;
 import com.hyberlet.task14.entities.University;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
