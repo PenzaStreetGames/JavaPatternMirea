@@ -39,7 +39,7 @@ public class StudentController {
         return true;
     }
 
-    @GetMapping("/student/{studentId}/university")
+    @GetMapping("/students/{studentId}/university")
     public University getUniversityByStudentId(@PathVariable Long studentId) {
         return studentService.getUniversity(studentId);
     }

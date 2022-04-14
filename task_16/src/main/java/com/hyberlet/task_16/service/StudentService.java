@@ -24,6 +24,9 @@ public class StudentService {
     private final SessionFactory sessionFactory;
     private Session session;
 
+    @Autowired
+    UniversityService universityService;
+
     @PostConstruct
     void init() {
         session = sessionFactory.openSession();
@@ -48,8 +51,11 @@ public class StudentService {
 
     public University getUniversity(Long studentId) {
         var transaction = session.beginTransaction();
-        University university = session.createQuery("select s from Student s where s.id = :id", Student.class)
-                .setParameter("id", studentId).getSingleResult().getUniversity();
+        Student student = session.createQuery("select s from Student s where s.id = :id", Student.class)
+                .setParameter("id", studentId).getSingleResult();
+        System.out.println(student);
+        University university = universityService.getUniversityById(student.getUniversityId());
+        System.out.println(university);
         transaction.commit();
         return university;
     }

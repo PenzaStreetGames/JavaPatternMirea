@@ -30,7 +30,7 @@ public class DataConfiguration {
     public LocalSessionFactoryBean factoryBean(DataSource dataSource) {
         LocalSessionFactoryBean sessionFactoryBean = new LocalSessionFactoryBean();
         sessionFactoryBean.setDataSource(dataSource);
-        sessionFactoryBean.setPackagesToScan("com.hyberlet.task_15.model");
+        sessionFactoryBean.setPackagesToScan("com.hyberlet.task_16.model");
         Properties properties = new Properties();
         properties.setProperty("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect");
         sessionFactoryBean.setHibernateProperties(properties);

@@ -23,10 +23,18 @@ public class UniversityService {
     }
 
     public List<University> getUniversities() {
-        session.beginTransaction();
+        var transaction = session.beginTransaction();
         List<University> universities = session.createQuery("select u from University u", University.class).getResultList();
-        session.close();
+        transaction.commit();
         return universities;
+    }
+
+    public University getUniversityById(Long universityId) {
+        var transaction = session.beginTransaction();
+        University university = session.createQuery("select u from University u where u.id = :id", University.class)
+                        .setParameter("id", universityId).getSingleResult();
+        transaction.commit();
+        return university;
     }
 
     public void saveUniversity(University university) {
