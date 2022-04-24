@@ -30,7 +30,6 @@ public class Student {
     private University university;
 
     @Column(name = "university_id")
-    @JsonIgnore
     private Long universityId;
 
     @Override
