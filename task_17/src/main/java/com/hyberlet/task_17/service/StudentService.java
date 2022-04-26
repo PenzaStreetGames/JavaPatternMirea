@@ -5,6 +5,7 @@ import com.hyberlet.task_17.model.University;
 import lombok.RequiredArgsConstructor;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
@@ -12,6 +13,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.PostConstruct;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
 import java.util.List;
 
 @Service
@@ -53,10 +57,18 @@ public class StudentService {
         var transaction = session.beginTransaction();
         Student student = session.createQuery("select s from Student s where s.id = :id", Student.class)
                 .setParameter("id", studentId).getSingleResult();
-        System.out.println(student);
         University university = universityService.getUniversityById(student.getUniversityId());
-        System.out.println(university);
         transaction.commit();
         return university;
+    }
+
+    public <T> List<Student> getStudentsBy (String attribute, T value) {
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<Student> studentCriteriaQuery = builder.createQuery(Student.class);
+        Root<Student> root = studentCriteriaQuery.from(Student.class);
+
+        studentCriteriaQuery.select(root).where(builder.equal(root.get(attribute), value));
+        Query<Student> query = session.createQuery(studentCriteriaQuery);
+        return query.getResultList();
     }
 }

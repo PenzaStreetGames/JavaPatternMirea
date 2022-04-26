@@ -1,0 +1,153 @@
+933  [main] INFO  c.h.task_19.Task19Application – Starting Task19Application using Java 17 on DESKTOP-PC with PID 14268 (C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19\target\classes started by Admin in C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19)
+931  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+936  [main] INFO  c.h.task_19.Task19Application – No active profile set, falling back to 1 default profile: "default"
+1723 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1723 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1813 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 80 ms. Found 2 JPA repository interfaces.
+2265 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+2265 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2271 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_19.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2272 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_19.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2272 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2745 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2752 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2752 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2752 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+2859 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2859 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1860 ms
+3041 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3114 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3149 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+3183 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+3327 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3453 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4012 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4020 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4339 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4654 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+4961 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+4988 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+5005 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+5018 [main] INFO  c.h.task_19.Task19Application – Started Task19Application in 4.593 seconds (JVM running for 5.736)
+5574 [RMI TCP Connection(3)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+5575 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+5580 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 5 ms
+77549 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+77553 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+77567 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+696  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+697  [main] INFO  c.h.task_19.Task19Application – Starting Task19Application using Java 17 on DESKTOP-PC with PID 11940 (C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19\target\classes started by Admin in C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19)
+698  [main] INFO  c.h.task_19.Task19Application – No active profile set, falling back to 1 default profile: "default"
+1224 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1224 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1284 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+1628 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1629 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1634 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_19.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1635 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_19.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1635 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2195 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2205 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2205 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2206 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+2374 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2374 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1634 ms
+2546 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+2641 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+2697 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2731 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+2886 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2975 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3481 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3488 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+3877 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4152 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+4460 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+4488 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+4504 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+4517 [main] INFO  c.h.task_19.Task19Application – Started Task19Application in 4.169 seconds (JVM running for 5.126)
+5024 [RMI TCP Connection(3)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+5024 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+5027 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 3 ms
+594468 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+594471 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+594483 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+918  [main] INFO  c.h.task_19.Task19Application – Starting Task19Application using Java 17 on DESKTOP-PC with PID 10092 (C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19\target\classes started by Admin in C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19)
+923  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+924  [main] INFO  c.h.task_19.Task19Application – No active profile set, falling back to 1 default profile: "default"
+1742 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1742 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1813 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2173 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+2174 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2180 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_19.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2180 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_19.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2180 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2621 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2628 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2629 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2629 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+2833 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2833 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1830 ms
+3036 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3127 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3162 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+3198 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+3330 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3437 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4056 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4073 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4375 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4635 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+4954 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+4978 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+5000 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+5015 [main] INFO  c.h.task_19.Task19Application – Started Task19Application in 4.652 seconds (JVM running for 5.577)
+5356 [RMI TCP Connection(3)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+5357 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+5359 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+84962 [http-nio-8080-exec-4] INFO  c.h.task_19.service.StudentService – Request: save student: Student{id=null, firstName='Pavel', lastName='Solomatin', universityId=1}
+142864 [http-nio-8080-exec-5] INFO  c.h.task_19.service.StudentService – Request: save student: Student{id=null, firstName='Aboba', lastName='Abobov', universityId=null}
+148302 [http-nio-8080-exec-7] INFO  c.h.task_19.service.StudentService – Request: find all students
+204739 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+204744 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+204761 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+703  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+704  [main] INFO  c.h.task_19.Task19Application – Starting Task19Application using Java 17 on DESKTOP-PC with PID 13604 (C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19\target\classes started by Admin in C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19)
+706  [main] INFO  c.h.task_19.Task19Application – No active profile set, falling back to 1 default profile: "default"
+1340 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1340 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1385 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+1827 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1827 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1833 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_19.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1834 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_19.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1834 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2309 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2316 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2317 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2317 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+2458 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2458 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1698 ms
+2664 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+2788 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+2870 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2951 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+3094 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3167 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3662 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3671 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4110 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4366 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+4752 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+4799 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+4827 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+4846 [main] INFO  c.h.task_19.Task19Application – Started Task19Application in 4.527 seconds (JVM running for 5.416)
+4970 [RMI TCP Connection(5)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+4970 [RMI TCP Connection(5)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+4972 [RMI TCP Connection(5)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+9289 [http-nio-8080-exec-1] INFO  c.h.task_19.service.StudentService – Request: find all students
+32061 [http-nio-8080-exec-4] INFO  c.h.task_19.service.StudentService – Request: find all students
+544956 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+544962 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+544976 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.

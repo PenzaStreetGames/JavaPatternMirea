@@ -1,12 +1,17 @@
 package com.hyberlet.task_17.service;
 
+import com.hyberlet.task_17.model.Student;
 import com.hyberlet.task_17.model.University;
 import lombok.RequiredArgsConstructor;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
 import java.util.List;
 
 @Component
@@ -47,6 +52,16 @@ public class UniversityService {
         session.createQuery("delete from University u where u.id = :id")
                 .setParameter("id", id).executeUpdate();
         transaction.commit();
+    }
+
+    public <T> List<University> getUniversitiesBy (String attribute, T value) {
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<University> universityCriteriaQuery = builder.createQuery(University.class);
+        Root<University> root = universityCriteriaQuery.from(University.class);
+
+        universityCriteriaQuery.select(root).where(builder.equal(root.get(attribute), value));
+        Query<University> query = session.createQuery(universityCriteriaQuery);
+        return query.getResultList();
     }
 
 }

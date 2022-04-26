@@ -43,4 +43,19 @@ public class StudentController {
     public University getUniversityByStudentId(@PathVariable Long studentId) {
         return studentService.getUniversity(studentId);
     }
+
+    @GetMapping("/students/first_name/{firstName}")
+    public List<Student> getStudentsByFirstName(@PathVariable String firstName) {
+        return studentService.getStudentsBy("firstName", firstName);
+    }
+
+    @GetMapping("/students/last_name/{lastName}")
+    public List<Student> getStudentsByLastName(@PathVariable String lastName) {
+        return studentService.getStudentsBy("lastName", lastName);
+    }
+
+    @GetMapping("/students/university_id/{universityId}")
+    public List<Student> getStudentsByLastName(@PathVariable Long universityId) {
+        return studentService.getStudentsBy("universityId", universityId);
+    }
 }
