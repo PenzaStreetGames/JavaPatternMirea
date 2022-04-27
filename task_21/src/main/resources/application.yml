@@ -7,8 +7,8 @@ spring:
   mail:
     host: smtp.yandex.ru
     port: 465
-    password: ...
-    username: gamba232@yandex.ru
+    password: jdyjdxlhvbwkjgkq
+    username: spring-test-server@yandex.ru
     properties:
       mail:
         transport:

@@ -1,6 +1,8 @@
 package com.hyberlet.task_21.aspects;
 
+import com.hyberlet.task_21.config.DataConfiguration;
 import com.hyberlet.task_21.service.MailService;
+import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
@@ -19,7 +21,6 @@ import javax.annotation.PostConstruct;
 public class EmailAspect {
     @Autowired
     private ApplicationContext context = new AnnotationConfigApplicationContext();
-    @Autowired
     private MailService mailService;
 
     @PostConstruct

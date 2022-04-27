@@ -1,5 +1,6 @@
 package com.hyberlet.task_21.service;
 
+import com.hyberlet.task_21.config.DataConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;
 import org.springframework.mail.SimpleMailMessage;
@@ -13,17 +14,15 @@ import java.time.LocalDateTime;
 
 @Service
 public class MailService {
-    public final String EMAIL = "gamba232@yandex.ru";
-    private final JavaMailSenderImpl javaMailSender = new JavaMailSenderImpl();
+    public final String EMAIL = "spring-test-server@yandex.ru";
+    @Autowired
+    private DataConfiguration dataConfiguration;
+    private JavaMailSender javaMailSender;
 
-//    @PostConstruct
-//    private void mailSettings() {
-//        javaMailSender.setHost("pop.mail.ru");
-//        javaMailSender.setUsername("crave_ozer_man@mail.ru");
-//        javaMailSender.setPassword("gamba232");
-//        javaMailSender.setPort(995);
-//        javaMailSender.setProtocol("pop3");
-//    }
+    @PostConstruct
+    private void mailSettings() {
+        javaMailSender = dataConfiguration.getJavaMailSender();
+    }
 
     @Async
     public void sendMessage(Object o) throws MailException {
