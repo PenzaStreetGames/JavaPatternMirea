@@ -14,6 +14,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
+import java.util.Arrays;
 
 @Slf4j
 @Aspect
@@ -30,7 +31,8 @@ public class EmailAspect {
 
     @After("creationServiceMethods()")
     public void sendMail(JoinPoint joinPoint) {
-        mailService.sendMessage(joinPoint.getArgs());
+        System.out.println(Arrays.toString(joinPoint.getArgs()));
+        mailService.sendMessage(joinPoint.getArgs()[0]);
     }
 
     @Pointcut("@annotation(com.hyberlet.task_21.annotations.Mailable)")

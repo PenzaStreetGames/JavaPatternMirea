@@ -11,10 +11,12 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 
 @Service
 public class MailService {
-    public final String EMAIL = "spring-test-server@yandex.ru";
+    public final String EMAIL = "gamba232@yandex.ru";
     @Autowired
     private DataConfiguration dataConfiguration;
     private JavaMailSender javaMailSender;
@@ -26,18 +28,17 @@ public class MailService {
 
     @Async
     public void sendMessage(Object o) throws MailException {
-        System.out.println("aboba1");
 
         SimpleMailMessage message = new SimpleMailMessage();
         message.setTo(EMAIL);
         message.setFrom(EMAIL);
-        message.setSubject("New " + o.getClass().getSimpleName() + " at " +
-                LocalDateTime.now());
+        String subject = "New " + o.getClass().getSimpleName() + " at " +
+                LocalDateTime.now().format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)) + " " +
+                LocalDateTime.now().format(DateTimeFormatter.ofLocalizedTime(FormatStyle.MEDIUM));
+        message.setSubject(subject);
         message.setText(o.toString());
 
         javaMailSender.send(message);
-
-        System.out.println("aboba");
     }
 
 }

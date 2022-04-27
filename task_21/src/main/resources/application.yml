@@ -19,4 +19,4 @@ spring:
             enable: true
             required: true
           ssl:
-            enbale: true
+            enable: true
