@@ -1,0 +1,1118 @@
+933  [main] INFO  c.h.task_19.Task19Application – Starting Task19Application using Java 17 on DESKTOP-PC with PID 14268 (C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19\target\classes started by Admin in C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19)
+931  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+936  [main] INFO  c.h.task_19.Task19Application – No active profile set, falling back to 1 default profile: "default"
+1723 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1723 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1813 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 80 ms. Found 2 JPA repository interfaces.
+2265 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+2265 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2271 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2272 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2272 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2745 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2752 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2752 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2752 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+2859 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2859 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1860 ms
+3041 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3114 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3149 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+3183 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+3327 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3453 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4012 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4020 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4339 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4654 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+4961 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+4988 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+5005 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+5018 [main] INFO  c.h.task_19.Task19Application – Started Task19Application in 4.593 seconds (JVM running for 5.736)
+5574 [RMI TCP Connection(3)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+5575 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+5580 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 5 ms
+77549 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+77553 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+77567 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+696  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+697  [main] INFO  c.h.task_19.Task19Application – Starting Task19Application using Java 17 on DESKTOP-PC with PID 11940 (C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19\target\classes started by Admin in C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19)
+698  [main] INFO  c.h.task_19.Task19Application – No active profile set, falling back to 1 default profile: "default"
+1224 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1224 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1284 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+1628 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1629 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1634 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1635 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1635 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2195 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2205 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2205 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2206 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+2374 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2374 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1634 ms
+2546 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+2641 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+2697 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2731 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+2886 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2975 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3481 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3488 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+3877 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4152 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+4460 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+4488 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+4504 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+4517 [main] INFO  c.h.task_19.Task19Application – Started Task19Application in 4.169 seconds (JVM running for 5.126)
+5024 [RMI TCP Connection(3)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+5024 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+5027 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 3 ms
+594468 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+594471 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+594483 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+918  [main] INFO  c.h.task_19.Task19Application – Starting Task19Application using Java 17 on DESKTOP-PC with PID 10092 (C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19\target\classes started by Admin in C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19)
+923  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+924  [main] INFO  c.h.task_19.Task19Application – No active profile set, falling back to 1 default profile: "default"
+1742 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1742 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1813 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2173 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+2174 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2180 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2180 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2180 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2621 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2628 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2629 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2629 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+2833 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2833 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1830 ms
+3036 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3127 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3162 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+3198 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+3330 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3437 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4056 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4073 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4375 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4635 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+4954 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+4978 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+5000 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+5015 [main] INFO  c.h.task_19.Task19Application – Started Task19Application in 4.652 seconds (JVM running for 5.577)
+5356 [RMI TCP Connection(3)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+5357 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+5359 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+84962 [http-nio-8080-exec-4] INFO  c.h.task_19.service.StudentService – Request: save student: Student{id=null, firstName='Pavel', lastName='Solomatin', universityId=1}
+142864 [http-nio-8080-exec-5] INFO  c.h.task_19.service.StudentService – Request: save student: Student{id=null, firstName='Aboba', lastName='Abobov', universityId=null}
+148302 [http-nio-8080-exec-7] INFO  c.h.task_19.service.StudentService – Request: find all students
+204739 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+204744 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+204761 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+703  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+704  [main] INFO  c.h.task_19.Task19Application – Starting Task19Application using Java 17 on DESKTOP-PC with PID 13604 (C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19\target\classes started by Admin in C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_19)
+706  [main] INFO  c.h.task_19.Task19Application – No active profile set, falling back to 1 default profile: "default"
+1340 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1340 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1385 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+1827 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1827 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1833 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1834 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1834 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2309 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2316 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2317 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2317 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+2458 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2458 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1698 ms
+2664 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+2788 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+2870 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2951 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+3094 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3167 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+3662 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3671 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4110 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4366 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+4752 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+4799 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+4827 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+4846 [main] INFO  c.h.task_19.Task19Application – Started Task19Application in 4.527 seconds (JVM running for 5.416)
+4970 [RMI TCP Connection(5)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+4970 [RMI TCP Connection(5)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+4972 [RMI TCP Connection(5)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+9289 [http-nio-8080-exec-1] INFO  c.h.task_19.service.StudentService – Request: find all students
+32061 [http-nio-8080-exec-4] INFO  c.h.task_19.service.StudentService – Request: find all students
+544956 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+544962 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+544976 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+466  [main] INFO  c.h.task_19.Task19Application – Starting Task19Application using Java 17.0.2 on DESKTOP-QVKU360 with PID 10668 (D:\YandexDisk\Univer\JavaPatternMirea\task_19\target\classes started by Admin in D:\YandexDisk\Univer\JavaPatternMirea\task_19)
+466  [main] INFO  c.h.task_19.Task19Application – No active profile set, falling back to 1 default profile: "default"
+469  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+866  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+866  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+896  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+1084 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1084 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1099 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1099 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1099 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+1428 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1428 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1428 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1428 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+1521 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1521 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1023 ms
+1653 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+1720 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+1741 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1781 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+1895 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1961 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2322 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2322 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+2563 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2729 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2909 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+2926 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+2950 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+2957 [main] INFO  c.h.task_19.Task19Application – Started Task19Application in 2.738 seconds (JVM running for 3.348)
+3148 [RMI TCP Connection(3)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+3149 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+3150 [RMI TCP Connection(3)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+18625 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+18625 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+18637 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+362  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+362  [main] INFO  c.h.task_20.Task20Application – Starting Task20Application using Java 17.0.2 on DESKTOP-QVKU360 with PID 5968 (D:\YandexDisk\Univer\JavaPatternMirea\task_20\target\classes started by Admin in D:\YandexDisk\Univer\JavaPatternMirea\task_20)
+366  [main] INFO  c.h.task_20.Task20Application – No active profile set, falling back to 1 default profile: "default"
+684  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+684  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+714  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+879  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+879  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+882  [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+882  [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+882  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+1152 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1162 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1162 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1162 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+1272 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1272 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 879 ms
+1390 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+2440 [main] ERROR com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: FATAL: database "task_20" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2787)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:173)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:290)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:400)
+	at org.postgresql.Driver.connect(Driver.java:259)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:162)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.lambda$getVendorProperties$1(HibernateJpaConfiguration.java:130)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:41)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineDdlAuto(HibernateProperties.java:143)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.getAdditionalProperties(HibernateProperties.java:103)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineHibernateProperties(HibernateProperties.java:95)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:132)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.hyberlet.task_20.Task20Application.main(Task20Application.java:10)
+2462 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2486 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+2544 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2600 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3615 [main] ERROR com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: FATAL: database "task_20" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2787)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:173)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:290)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:400)
+	at org.postgresql.Driver.connect(Driver.java:259)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.hyberlet.task_20.Task20Application.main(Task20Application.java:10)
+3616 [main] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator – HHH000342: Could not obtain connection to query metadata
+org.postgresql.util.PSQLException: FATAL: database "task_20" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2787)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:173)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:290)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:400)
+	at org.postgresql.Driver.connect(Driver.java:259)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.hyberlet.task_20.Task20Application.main(Task20Application.java:10)
+3616 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean – Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+3618 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+3620 [main] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+3630 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+3680 [main] ERROR o.s.boot.SpringApplication – Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.hyberlet.task_20.Task20Application.main(Task20Application.java:10)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:138)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 33 common frames omitted
+363  [main] INFO  c.h.task_20.Task20Application – Starting Task20Application using Java 17.0.2 on DESKTOP-QVKU360 with PID 11908 (D:\YandexDisk\Univer\JavaPatternMirea\task_20\target\classes started by Admin in D:\YandexDisk\Univer\JavaPatternMirea\task_20)
+363  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+370  [main] INFO  c.h.task_20.Task20Application – No active profile set, falling back to 1 default profile: "default"
+682  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+682  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+710  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+870  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+870  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+870  [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+870  [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+870  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+1156 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1161 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1161 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1161 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+1233 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1233 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 836 ms
+1350 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+1404 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+1424 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1449 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+1513 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1581 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1870 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1878 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+2083 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2217 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2395 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+2410 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+2425 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+2437 [main] INFO  c.h.task_20.Task20Application – Started Task20Application in 2.271 seconds (JVM running for 2.746)
+2934 [RMI TCP Connection(2)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+2935 [RMI TCP Connection(2)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+2935 [RMI TCP Connection(2)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 0 ms
+10513 [http-nio-8080-exec-2] INFO  c.h.t.service.UniversityService – Request: save university: University{id=null, name='mirea', creationDate=1947-05-28, students=[]}
+10537 [http-nio-8080-exec-2] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Error: 0, SQLState: 42P01
+10537 [http-nio-8080-exec-2] ERROR o.h.e.jdbc.spi.SqlExceptionHelper – ERROR: relation "university_sequence" does not exist
+  Позиция: 17
+10553 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] – Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet] with root cause
+org.postgresql.util.PSQLException: ERROR: relation "university_sequence" does not exist
+  Позиция: 17
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:166)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:118)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57)
+	at org.hibernate.id.enhanced.SequenceStructure$1.getNextValue(SequenceStructure.java:107)
+	at org.hibernate.id.enhanced.NoopOptimizer.generate(NoopOptimizer.java:40)
+	at org.hibernate.id.enhanced.SequenceStyleGenerator.generate(SequenceStyleGenerator.java:534)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:115)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:756)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:742)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at jdk.proxy2/jdk.proxy2.$Proxy123.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311)
+	at jdk.proxy2/jdk.proxy2.$Proxy123.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:637)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:639)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy2/jdk.proxy2.$Proxy129.save(Unknown Source)
+	at com.hyberlet.task_20.service.UniversityService.saveUniversity(UniversityService.java:33)
+	at com.hyberlet.task_20.controller.UniversityController.create(UniversityController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+68524 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+68525 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+68527 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+380  [main] INFO  c.h.task_20.Task20Application – Starting Task20Application using Java 17.0.2 on DESKTOP-QVKU360 with PID 7196 (D:\YandexDisk\Univer\JavaPatternMirea\task_20\target\classes started by Admin in D:\YandexDisk\Univer\JavaPatternMirea\task_20)
+380  [main] INFO  c.h.task_20.Task20Application – No active profile set, falling back to 1 default profile: "default"
+380  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+710  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+711  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+741  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+910  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+910  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+911  [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+911  [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+911  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+1195 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1200 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1203 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1203 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+1277 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1277 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 860 ms
+1395 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+1446 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+1463 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1490 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+1558 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1621 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1935 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1940 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+2152 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2290 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2458 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+2480 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+2494 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+2506 [main] INFO  c.h.task_20.Task20Application – Started Task20Application in 2.339 seconds (JVM running for 2.812)
+2739 [RMI TCP Connection(4)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+2739 [RMI TCP Connection(4)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+2740 [RMI TCP Connection(4)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+5951 [http-nio-8080-exec-1] INFO  c.h.t.service.UniversityService – Request: save university: University{id=null, name='mirea', creationDate=1947-05-28, students=[]}
+11430 [http-nio-8080-exec-3] INFO  c.h.t.service.UniversityService – Request: save university: University{id=null, name='pgu', creationDate=1943-07-03, students=[]}
+17085 [http-nio-8080-exec-4] INFO  c.h.task_20.service.StudentService – Request: save student: Student{id=null, firstName='Pavel', lastName='Solomatin', universityId=1}
+22803 [http-nio-8080-exec-5] INFO  c.h.task_20.service.StudentService – Request: save student: Student{id=null, firstName='Aboba', lastName='Abobov', universityId=1}
+27496 [http-nio-8080-exec-6] INFO  c.h.t.service.UniversityService – Request: find all universities
+443865 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+443865 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+443870 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+467  [main] INFO  c.h.task_20.Task20Application – Starting Task20Application using Java 17.0.2 on DESKTOP-QVKU360 with PID 6056 (D:\YandexDisk\Univer\JavaPatternMirea\task_20\target\classes started by Admin in D:\YandexDisk\Univer\JavaPatternMirea\task_20)
+467  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+467  [main] INFO  c.h.task_20.Task20Application – No active profile set, falling back to 1 default profile: "default"
+847  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+847  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+894  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+1081 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1081 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1081 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1081 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1081 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+1284 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthEndpointGroupsBeanPostProcessor' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'identifier' at character position 0
+
+^
+
+1284 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+1300 [main] ERROR o.s.boot.SpringApplication – Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthEndpointGroupsBeanPostProcessor' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'identifier' at character position 0
+
+^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.hyberlet.task_20.Task20Application.main(Task20Application.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'identifier' at character position 0
+
+^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:253)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	... 14 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'identifier' at character position 0
+
+^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:334)
+	at org.aspectj.weaver.reflect.InternalUseOnlyPointcutParser.resolvePointcutExpression(InternalUseOnlyPointcutParser.java:36)
+	at org.aspectj.weaver.reflect.Java15ReflectionBasedReferenceTypeDelegate.getDeclaredPointcuts(Java15ReflectionBasedReferenceTypeDelegate.java:308)
+	at org.aspectj.weaver.ReferenceType.getDeclaredPointcuts(ReferenceType.java:890)
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:261)
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:258)
+	at org.aspectj.weaver.Iterators$4$1.hasNext(Iterators.java:213)
+	at org.aspectj.weaver.Iterators$4.hasNext(Iterators.java:230)
+	at org.aspectj.weaver.ResolvedType.findPointcut(ResolvedType.java:767)
+	at org.aspectj.weaver.patterns.ReferencePointcut.resolveBindings(ReferencePointcut.java:148)
+	at org.aspectj.weaver.patterns.Pointcut.resolve(Pointcut.java:189)
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:331)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:312)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:339)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:291)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:455)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 36 common frames omitted
+386  [main] INFO  c.h.task_20.Task20Application – Starting Task20Application using Java 17.0.2 on DESKTOP-QVKU360 with PID 11092 (D:\YandexDisk\Univer\JavaPatternMirea\task_20\target\classes started by Admin in D:\YandexDisk\Univer\JavaPatternMirea\task_20)
+386  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+390  [main] INFO  c.h.task_20.Task20Application – No active profile set, falling back to 1 default profile: "default"
+719  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+719  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+750  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+907  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+922  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+922  [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+922  [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+922  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+1284 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1299 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1299 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1299 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+1380 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1380 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 962 ms
+1521 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+2576 [main] ERROR com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: FATAL: database "task_20" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2787)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:173)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:290)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:400)
+	at org.postgresql.Driver.connect(Driver.java:259)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:162)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.lambda$getVendorProperties$1(HibernateJpaConfiguration.java:130)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:41)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineDdlAuto(HibernateProperties.java:143)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.getAdditionalProperties(HibernateProperties.java:103)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineHibernateProperties(HibernateProperties.java:95)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:132)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.hyberlet.task_20.Task20Application.main(Task20Application.java:10)
+2622 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2668 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+2762 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2825 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3843 [main] ERROR com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: FATAL: database "task_20" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2787)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:173)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:290)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:400)
+	at org.postgresql.Driver.connect(Driver.java:259)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.hyberlet.task_20.Task20Application.main(Task20Application.java:10)
+3843 [main] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator – HHH000342: Could not obtain connection to query metadata
+org.postgresql.util.PSQLException: FATAL: database "task_20" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2787)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:173)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:290)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:400)
+	at org.postgresql.Driver.connect(Driver.java:259)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.hyberlet.task_20.Task20Application.main(Task20Application.java:10)
+3843 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean – Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+3843 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+3843 [main] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+3858 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+3858 [main] ERROR o.s.boot.SpringApplication – Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.hyberlet.task_20.Task20Application.main(Task20Application.java:10)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:138)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 33 common frames omitted
+395  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+395  [main] INFO  c.h.task_20.Task20Application – Starting Task20Application using Java 17.0.2 on DESKTOP-QVKU360 with PID 16948 (D:\YandexDisk\Univer\JavaPatternMirea\task_20\target\classes started by Admin in D:\YandexDisk\Univer\JavaPatternMirea\task_20)
+395  [main] INFO  c.h.task_20.Task20Application – No active profile set, falling back to 1 default profile: "default"
+710  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+710  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+746  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+903  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+903  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+903  [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+903  [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+903  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+1215 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1231 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1231 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1231 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+1298 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1298 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 873 ms
+1421 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+1488 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+1504 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1535 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+1605 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1669 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2008 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2008 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+2258 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2415 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2607 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+2639 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+2639 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+2654 [main] INFO  c.h.task_20.Task20Application – Started Task20Application in 2.481 seconds (JVM running for 2.976)
+2741 [RMI TCP Connection(2)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+2741 [RMI TCP Connection(2)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+2742 [RMI TCP Connection(2)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+29953 [http-nio-8080-exec-2] INFO  c.h.t.service.UniversityService – Request: find all universities
+30045 [http-nio-8080-exec-2] INFO  c.h.task_20.aspects.LoggingAspect – getUniversities: 97 ms
+51427 [http-nio-8080-exec-4] INFO  c.h.t.service.UniversityService – Request: save university: University{id=null, name='mirea', creationDate=1947-05-28, students=[]}
+51465 [http-nio-8080-exec-4] INFO  c.h.task_20.aspects.LoggingAspect – saveUniversity: 38 ms
+63266 [http-nio-8080-exec-3] INFO  c.h.task_20.service.StudentService – Request: save student: Student{id=null, firstName='Pavel', lastName='Solomatin', universityId=1}
+63276 [http-nio-8080-exec-3] INFO  c.h.task_20.aspects.LoggingAspect – saveStudent: 12 ms
+68336 [http-nio-8080-exec-5] INFO  c.h.task_20.service.StudentService – Request: find all students
+68347 [http-nio-8080-exec-5] INFO  c.h.task_20.aspects.LoggingAspect – getStudents: 11 ms
+123898 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+123898 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+123910 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+388  [main] INFO  c.h.task_20.Task20Application – Starting Task20Application using Java 17.0.2 on DESKTOP-QVKU360 with PID 9208 (D:\YandexDisk\Univer\JavaPatternMirea\task_20\target\classes started by Admin in D:\YandexDisk\Univer\JavaPatternMirea\task_20)
+388  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+388  [main] INFO  c.h.task_20.Task20Application – No active profile set, falling back to 1 default profile: "default"
+720  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+720  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+751  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+923  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+923  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+923  [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+923  [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+923  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+1253 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1257 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1257 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1257 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+1320 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1320 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 901 ms
+1447 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+1506 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+1528 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1544 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+1629 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1681 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+1975 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1975 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+2208 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2349 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2535 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+2551 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+2567 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+2567 [main] INFO  c.h.task_20.Task20Application – Started Task20Application in 2.408 seconds (JVM running for 2.895)
+2717 [RMI TCP Connection(4)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+2718 [RMI TCP Connection(4)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+2719 [RMI TCP Connection(4)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+10430 [http-nio-8080-exec-2] INFO  c.h.task_20.service.StudentService – Request: find all students
+10506 [http-nio-8080-exec-2] INFO  c.h.task_20.aspects.LoggingAspect – getStudents: 82 ms
+21618 [http-nio-8080-exec-3] INFO  c.h.t.service.UniversityService – Request: find all universities
+21634 [http-nio-8080-exec-3] INFO  c.h.task_20.aspects.LoggingAspect – getUniversities: 19 ms
+26780 [http-nio-8080-exec-4] INFO  c.h.task_20.service.StudentService – Request: get university by student 1: 1
+26780 [http-nio-8080-exec-4] INFO  c.h.task_20.aspects.LoggingAspect – getUniversity: 6 ms
+111048 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+111063 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+111065 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+399  [main] INFO  c.h.task_20.Task20Application – Starting Task20Application using Java 17.0.2 on DESKTOP-QVKU360 with PID 6712 (D:\YandexDisk\Univer\JavaPatternMirea\task_20\target\classes started by Admin in D:\YandexDisk\Univer\JavaPatternMirea\task_20)
+403  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+403  [main] INFO  c.h.task_20.Task20Application – No active profile set, falling back to 1 default profile: "default"
+742  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+742  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+781  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+950  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+950  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+950  [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+950  [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_20.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+950  [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+1262 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+1262 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1262 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1262 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+1340 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1340 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 909 ms
+1484 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+1534 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+1557 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1573 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+1657 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+1724 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2017 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2033 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+2268 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2417 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2615 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+2642 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+2655 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+2667 [main] INFO  c.h.task_20.Task20Application – Started Task20Application in 2.482 seconds (JVM running for 2.978)
+3155 [RMI TCP Connection(5)-192.168.56.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+3155 [RMI TCP Connection(5)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+3156 [RMI TCP Connection(5)-192.168.56.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+5946 [http-nio-8080-exec-1] INFO  c.h.task_20.aspects.LoggingAspect – getUniversities: 87 ms
+13111 [http-nio-8080-exec-3] INFO  c.h.task_20.aspects.LoggingAspect – getUniversitiesByName: 17 ms
+22330 [http-nio-8080-exec-4] INFO  c.h.task_20.aspects.LoggingAspect – saveUniversity: 29 ms
+28150 [http-nio-8080-exec-5] INFO  c.h.task_20.aspects.LoggingAspect – getUniversities: 5 ms
+3033330 [http-nio-8080-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase – HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2f7f411 (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+3033330 [http-nio-8080-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase – HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@e8dbf7e (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+3033331 [http-nio-8080-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase – HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@496b6f3 (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+3033331 [http-nio-8080-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase – HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@397c9d0c (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+3033331 [http-nio-8080-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase – HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5db7b078 (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+3033332 [http-nio-8080-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase – HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@3e2292ff (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+3033332 [http-nio-8080-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase – HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@fb29ae6 (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+3033333 [http-nio-8080-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase – HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@527be2e1 (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+3033333 [http-nio-8080-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase – HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@322fbca6 (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+3033333 [http-nio-8080-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase – HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@18b07576 (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+3033349 [http-nio-8080-exec-8] INFO  c.h.task_20.aspects.LoggingAspect – getStudents: 64 ms
+3048952 [http-nio-8080-exec-9] INFO  c.h.task_20.aspects.LoggingAspect – deleteStudentById: 49 ms
+3080881 [http-nio-8080-exec-10] INFO  c.h.task_20.aspects.LoggingAspect – deleteUniversityById: 46 ms
+3084238 [http-nio-8080-exec-2] INFO  c.h.task_20.aspects.LoggingAspect – deleteUniversityById: 6 ms
+3481474 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+3481474 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+3481487 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
