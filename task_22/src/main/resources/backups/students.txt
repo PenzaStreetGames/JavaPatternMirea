@@ -1,0 +1,2 @@
+StudentDto{id=1, firstName='Pavel', lastName='Solomatin', universityId=1}
+StudentDto{id=2, firstName='Aboba', lastName='Abobov', universityId=1}
