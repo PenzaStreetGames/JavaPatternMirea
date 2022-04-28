@@ -4074,3 +4074,648 @@ Caused by: java.lang.IllegalStateException: Encountered invalid @Scheduled metho
 17975 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
 17975 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
 17992 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+816  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+816  [main] INFO  c.h.task_22.Task22Application – Starting Task22Application using Java 17 on DESKTOP-PC with PID 17304 (C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_22\target\classes started by Admin in C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_22)
+819  [main] INFO  c.h.task_22.Task22Application – No active profile set, falling back to 1 default profile: "default"
+1589 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1589 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1765 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 153 ms. Found 2 JPA repository interfaces.
+2181 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+2181 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2189 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_22.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2189 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_22.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2190 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+3087 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+3095 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+3096 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+3096 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+3225 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+3225 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 2364 ms
+3527 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+4593 [main] ERROR com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: FATAL: database "task_22" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2787)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:173)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:290)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:400)
+	at org.postgresql.Driver.connect(Driver.java:259)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:162)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.lambda$getVendorProperties$1(HibernateJpaConfiguration.java:130)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:41)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineDdlAuto(HibernateProperties.java:143)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.getAdditionalProperties(HibernateProperties.java:103)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineHibernateProperties(HibernateProperties.java:95)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:132)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.hyberlet.task_22.Task22Application.main(Task22Application.java:10)
+4666 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+4736 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+5069 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+5215 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+6230 [main] ERROR com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: FATAL: database "task_22" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2787)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:173)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:290)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:400)
+	at org.postgresql.Driver.connect(Driver.java:259)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.hyberlet.task_22.Task22Application.main(Task22Application.java:10)
+6234 [main] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator – HHH000342: Could not obtain connection to query metadata
+org.postgresql.util.PSQLException: FATAL: database "task_22" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2787)
+	at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:173)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:290)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:400)
+	at org.postgresql.Driver.connect(Driver.java:259)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.hyberlet.task_22.Task22Application.main(Task22Application.java:10)
+6241 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean – Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+6244 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+6253 [main] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+6288 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+6389 [main] ERROR o.s.boot.SpringApplication – Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.hyberlet.task_22.Task22Application.main(Task22Application.java:10)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:138)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 33 common frames omitted
+890  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+893  [main] INFO  c.h.task_22.Task22Application – Starting Task22Application using Java 17 on DESKTOP-PC with PID 6744 (C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_22\target\classes started by Admin in C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_22)
+894  [main] INFO  c.h.task_22.Task22Application – No active profile set, falling back to 1 default profile: "default"
+1587 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1587 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1642 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+1959 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1960 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1966 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_22.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1967 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_22.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1967 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2687 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2698 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2699 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2699 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+2854 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2854 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1917 ms
+3145 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3232 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3271 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+3334 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+3498 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3656 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4313 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4329 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4894 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5197 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+5574 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+5668 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+5673 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext – Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+5676 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+5678 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+5686 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+5689 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Pausing ProtocolHandler ["http-nio-8080"]
+5690 [main] INFO  o.a.catalina.core.StandardService – Stopping service [Tomcat]
+5694 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Stopping ProtocolHandler ["http-nio-8080"]
+5694 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Destroying ProtocolHandler ["http-nio-8080"]
+5706 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener – 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+5721 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter – 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+892  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+893  [main] INFO  c.h.task_22.Task22Application – Starting Task22Application using Java 17 on DESKTOP-PC with PID 16628 (C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_22\target\classes started by Admin in C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_22)
+895  [main] INFO  c.h.task_22.Task22Application – No active profile set, falling back to 1 default profile: "default"
+1582 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1582 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1644 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+1967 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1968 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1975 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_22.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1976 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_22.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1976 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2700 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2708 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2708 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2708 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+2848 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2848 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1911 ms
+3115 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3234 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3277 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+3338 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+3503 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3624 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4336 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4349 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4972 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5298 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+5693 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+5746 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+5764 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+5780 [main] INFO  c.h.task_22.Task22Application – Started Task22Application in 5.327 seconds (JVM running for 6.298)
+5855 [RMI TCP Connection(3)-172.20.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+5855 [RMI TCP Connection(3)-172.20.0.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+5856 [RMI TCP Connection(3)-172.20.0.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+6849 [task-1] INFO  c.h.t.service.SchedulerService – deleting early backup files
+6853 [task-1] INFO  c.h.t.service.SchedulerService – early backup files deleted
+6855 [task-1] INFO  c.h.t.service.SchedulerService – writing entities
+6855 [task-1] INFO  c.h.t.service.SchedulerService – writing students
+7007 [task-1] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 140 ms
+7012 [task-1] INFO  c.h.t.service.SchedulerService – students written
+7013 [task-1] INFO  c.h.t.service.SchedulerService – writing universities
+7023 [task-1] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 10 ms
+7026 [task-1] INFO  c.h.t.service.SchedulerService – universities written
+7027 [task-1] INFO  c.h.t.service.SchedulerService – entities written
+7027 [task-1] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 186 ms
+16845 [task-2] INFO  c.h.t.service.SchedulerService – deleting early backup files
+16848 [task-2] INFO  c.h.t.service.SchedulerService – early backup files deleted
+16849 [task-2] INFO  c.h.t.service.SchedulerService – writing entities
+16849 [task-2] INFO  c.h.t.service.SchedulerService – writing students
+16856 [task-2] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 3 ms
+16861 [task-2] INFO  c.h.t.service.SchedulerService – students written
+16861 [task-2] INFO  c.h.t.service.SchedulerService – writing universities
+16867 [task-2] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 5 ms
+16872 [task-2] INFO  c.h.t.service.SchedulerService – universities written
+16872 [task-2] INFO  c.h.t.service.SchedulerService – entities written
+16872 [task-2] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 27 ms
+26834 [task-3] INFO  c.h.t.service.SchedulerService – deleting early backup files
+26837 [task-3] INFO  c.h.t.service.SchedulerService – early backup files deleted
+26837 [task-3] INFO  c.h.t.service.SchedulerService – writing entities
+26837 [task-3] INFO  c.h.t.service.SchedulerService – writing students
+26843 [task-3] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 3 ms
+26848 [task-3] INFO  c.h.t.service.SchedulerService – students written
+26848 [task-3] INFO  c.h.t.service.SchedulerService – writing universities
+26853 [task-3] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 4 ms
+26857 [task-3] INFO  c.h.t.service.SchedulerService – universities written
+26858 [task-3] INFO  c.h.t.service.SchedulerService – entities written
+26858 [task-3] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 24 ms
+36834 [task-4] INFO  c.h.t.service.SchedulerService – deleting early backup files
+36837 [task-4] INFO  c.h.t.service.SchedulerService – early backup files deleted
+36837 [task-4] INFO  c.h.t.service.SchedulerService – writing entities
+36837 [task-4] INFO  c.h.t.service.SchedulerService – writing students
+36845 [task-4] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 5 ms
+36849 [task-4] INFO  c.h.t.service.SchedulerService – students written
+36849 [task-4] INFO  c.h.t.service.SchedulerService – writing universities
+36853 [task-4] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 2 ms
+36857 [task-4] INFO  c.h.t.service.SchedulerService – universities written
+36857 [task-4] INFO  c.h.t.service.SchedulerService – entities written
+36857 [task-4] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 23 ms
+46834 [task-5] INFO  c.h.t.service.SchedulerService – deleting early backup files
+46836 [task-5] INFO  c.h.t.service.SchedulerService – early backup files deleted
+46837 [task-5] INFO  c.h.t.service.SchedulerService – writing entities
+46837 [task-5] INFO  c.h.t.service.SchedulerService – writing students
+46845 [task-5] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 3 ms
+46848 [task-5] INFO  c.h.t.service.SchedulerService – students written
+46849 [task-5] INFO  c.h.t.service.SchedulerService – writing universities
+46853 [task-5] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 3 ms
+46857 [task-5] INFO  c.h.t.service.SchedulerService – universities written
+46858 [task-5] INFO  c.h.t.service.SchedulerService – entities written
+46858 [task-5] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 24 ms
+56440 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+56442 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+56453 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+760  [background-preinit] INFO  o.h.validator.internal.util.Version – HV000001: Hibernate Validator 6.2.3.Final
+765  [main] INFO  c.h.task_22.Task22Application – Starting Task22Application using Java 17 on DESKTOP-PC with PID 8552 (C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_22\target\classes started by Admin in C:\Users\Admin\YandexDisk\Univer\JavaPatternMirea\task_22)
+766  [main] INFO  c.h.task_22.Task22Application – No active profile set, falling back to 1 default profile: "default"
+1427 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1427 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1486 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+1890 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Multiple Spring Data modules found, entering strict repository configuration mode!
+1890 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1897 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_22.repository.StudentRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1898 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport – Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.hyberlet.task_22.repository.UniversityRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1898 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2562 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2569 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2569 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2569 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+2726 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2727 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1903 ms
+3025 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3105 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3158 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+3224 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+3386 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3475 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4147 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4157 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4717 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5058 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration – Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+5485 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+5536 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+5555 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+5572 [main] INFO  c.h.task_22.Task22Application – Started Task22Application in 5.228 seconds (JVM running for 6.098)
+5835 [RMI TCP Connection(5)-172.20.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+5836 [RMI TCP Connection(5)-172.20.0.1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+5837 [RMI TCP Connection(5)-172.20.0.1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+12691 [task-1] INFO  c.h.t.service.SchedulerService – deleting early backup files
+12695 [task-1] INFO  c.h.t.service.SchedulerService – early backup files deleted
+12695 [task-1] INFO  c.h.t.service.SchedulerService – writing entities
+12695 [task-1] INFO  c.h.t.service.SchedulerService – writing students
+12913 [task-1] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 193 ms
+12922 [task-1] INFO  c.h.t.service.SchedulerService – students written
+12922 [task-1] INFO  c.h.t.service.SchedulerService – writing universities
+12938 [task-1] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 15 ms
+12943 [task-1] INFO  c.h.t.service.SchedulerService – universities written
+12944 [task-1] INFO  c.h.t.service.SchedulerService – entities written
+12944 [task-1] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 266 ms
+72661 [task-2] INFO  c.h.t.service.SchedulerService – deleting early backup files
+72667 [task-2] INFO  c.h.t.service.SchedulerService – early backup files deleted
+72671 [task-2] INFO  c.h.t.service.SchedulerService – writing entities
+72671 [task-2] INFO  c.h.t.service.SchedulerService – writing students
+72693 [task-2] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 5 ms
+72698 [task-2] INFO  c.h.t.service.SchedulerService – students written
+72699 [task-2] INFO  c.h.t.service.SchedulerService – writing universities
+72704 [task-2] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 5 ms
+72709 [task-2] INFO  c.h.t.service.SchedulerService – universities written
+72709 [task-2] INFO  c.h.t.service.SchedulerService – entities written
+72710 [task-2] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 49 ms
+92930 [http-nio-8080-exec-2] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 3 ms
+96081 [http-nio-8080-exec-5] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 5 ms
+132686 [task-3] INFO  c.h.t.service.SchedulerService – deleting early backup files
+132693 [task-3] INFO  c.h.t.service.SchedulerService – early backup files deleted
+132693 [task-3] INFO  c.h.t.service.SchedulerService – writing entities
+132693 [task-3] INFO  c.h.t.service.SchedulerService – writing students
+132716 [task-3] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 7 ms
+132721 [task-3] INFO  c.h.t.service.SchedulerService – students written
+132723 [task-3] INFO  c.h.t.service.SchedulerService – writing universities
+132730 [task-3] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 7 ms
+132740 [task-3] INFO  c.h.t.service.SchedulerService – universities written
+132741 [task-3] INFO  c.h.t.service.SchedulerService – entities written
+132741 [task-3] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 55 ms
+163720 [http-nio-8080-exec-3] INFO  c.h.task_22.aspects.LoggingAspect – getUniversity: 37 ms
+163781 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] – Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.hyberlet.task_22.model.University.getDto()" because the return value of "com.hyberlet.task_22.service.StudentService.getUniversity(java.lang.Long)" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.hyberlet.task_22.model.University.getDto()" because the return value of "com.hyberlet.task_22.service.StudentService.getUniversity(java.lang.Long)" is null
+	at com.hyberlet.task_22.controller.StudentController.getUniversityByStudentId(StudentController.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+163887 [http-nio-8080-exec-8] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 3 ms
+163998 [http-nio-8080-exec-9] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 3 ms
+164224 [http-nio-8080-exec-10] INFO  c.h.task_22.aspects.LoggingAspect – saveUniversity: 70 ms
+164345 [http-nio-8080-exec-4] INFO  c.h.task_22.aspects.LoggingAspect – saveStudent: 10 ms
+164466 [http-nio-8080-exec-2] INFO  c.h.task_22.aspects.LoggingAspect – getUniversity: 17 ms
+164561 [http-nio-8080-exec-5] INFO  c.h.task_22.aspects.LoggingAspect – saveUniversity: 4 ms
+164637 [http-nio-8080-exec-1] INFO  c.h.task_22.aspects.LoggingAspect – saveStudent: 4 ms
+164716 [http-nio-8080-exec-6] INFO  c.h.task_22.aspects.LoggingAspect – getUniversity: 5 ms
+164824 [http-nio-8080-exec-3] INFO  c.h.task_22.aspects.LoggingAspect – getUniversity: 5 ms
+164881 [http-nio-8080-exec-7] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 5 ms
+164949 [http-nio-8080-exec-8] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 9 ms
+165021 [http-nio-8080-exec-9] INFO  c.h.task_22.aspects.LoggingAspect – saveUniversity: 3 ms
+165097 [http-nio-8080-exec-10] INFO  c.h.task_22.aspects.LoggingAspect – saveStudent: 3 ms
+165193 [http-nio-8080-exec-4] INFO  c.h.task_22.aspects.LoggingAspect – getUniversity: 5 ms
+165285 [http-nio-8080-exec-2] INFO  c.h.task_22.aspects.LoggingAspect – saveUniversity: 3 ms
+165381 [http-nio-8080-exec-5] INFO  c.h.task_22.aspects.LoggingAspect – saveStudent: 5 ms
+165455 [http-nio-8080-exec-1] INFO  c.h.task_22.aspects.LoggingAspect – getUniversity: 3 ms
+165550 [http-nio-8080-exec-6] INFO  c.h.task_22.aspects.LoggingAspect – getUniversity: 4 ms
+165615 [http-nio-8080-exec-3] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 5 ms
+165703 [http-nio-8080-exec-7] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 17 ms
+165780 [http-nio-8080-exec-8] INFO  c.h.task_22.aspects.LoggingAspect – saveUniversity: 3 ms
+165891 [http-nio-8080-exec-9] INFO  c.h.task_22.aspects.LoggingAspect – saveStudent: 3 ms
+165981 [http-nio-8080-exec-10] INFO  c.h.task_22.aspects.LoggingAspect – getUniversity: 4 ms
+166087 [http-nio-8080-exec-4] INFO  c.h.task_22.aspects.LoggingAspect – saveUniversity: 3 ms
+166199 [http-nio-8080-exec-2] INFO  c.h.task_22.aspects.LoggingAspect – saveStudent: 2 ms
+166200 [task-8] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 1177 ms
+166200 [task-7] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 1562 ms
+166202 [task-4] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 1971 ms
+166209 [task-6] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 1646 ms
+166244 [task-9] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 1146 ms
+166272 [http-nio-8080-exec-5] INFO  c.h.task_22.aspects.LoggingAspect – getUniversity: 3 ms
+166349 [http-nio-8080-exec-1] INFO  c.h.task_22.aspects.LoggingAspect – getUniversity: 4 ms
+166442 [http-nio-8080-exec-6] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 3 ms
+166532 [http-nio-8080-exec-3] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 16 ms
+166611 [http-nio-8080-exec-7] INFO  c.h.task_22.aspects.LoggingAspect – saveUniversity: 2 ms
+166706 [http-nio-8080-exec-8] INFO  c.h.task_22.aspects.LoggingAspect – saveStudent: 3 ms
+166768 [http-nio-8080-exec-9] INFO  c.h.task_22.aspects.LoggingAspect – getUniversity: 3 ms
+166876 [http-nio-8080-exec-10] INFO  c.h.task_22.aspects.LoggingAspect – saveUniversity: 3 ms
+166967 [http-nio-8080-exec-4] INFO  c.h.task_22.aspects.LoggingAspect – saveStudent: 3 ms
+167062 [http-nio-8080-exec-2] INFO  c.h.task_22.aspects.LoggingAspect – getUniversity: 2 ms
+167141 [http-nio-8080-exec-5] INFO  c.h.task_22.aspects.LoggingAspect – getUniversity: 3 ms
+167216 [task-3] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 1834 ms
+167235 [http-nio-8080-exec-1] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 4 ms
+167340 [http-nio-8080-exec-6] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 17 ms
+167423 [http-nio-8080-exec-3] INFO  c.h.task_22.aspects.LoggingAspect – saveUniversity: 4 ms
+167513 [http-nio-8080-exec-7] INFO  c.h.task_22.aspects.LoggingAspect – saveStudent: 3 ms
+167534 [task-5] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 3187 ms
+167595 [task-10] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 2308 ms
+167603 [http-nio-8080-exec-8] INFO  c.h.task_22.aspects.LoggingAspect – getUniversity: 4 ms
+167699 [http-nio-8080-exec-9] INFO  c.h.task_22.aspects.LoggingAspect – saveUniversity: 3 ms
+167766 [http-nio-8080-exec-10] INFO  c.h.task_22.aspects.LoggingAspect – saveStudent: 3 ms
+167832 [http-nio-8080-exec-4] INFO  c.h.task_22.aspects.LoggingAspect – getUniversity: 5 ms
+167849 [task-7] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 1649 ms
+167884 [task-3] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 668 ms
+168123 [task-8] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 1922 ms
+168926 [task-6] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 2717 ms
+168926 [task-5] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 1392 ms
+168933 [task-7] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 1084 ms
+169876 [task-9] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 3264 ms
+169876 [task-10] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 2281 ms
+169980 [task-3] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 2095 ms
+172660 [task-8] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 4537 ms
+173570 [task-6] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 4644 ms
+177090 [task-4] INFO  c.h.task_22.aspects.LoggingAspect – sendMessage: 10888 ms
+192667 [task-5] INFO  c.h.t.service.SchedulerService – deleting early backup files
+192671 [task-5] INFO  c.h.t.service.SchedulerService – early backup files deleted
+192671 [task-5] INFO  c.h.t.service.SchedulerService – writing entities
+192671 [task-5] INFO  c.h.t.service.SchedulerService – writing students
+192691 [task-5] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 10 ms
+192699 [task-5] INFO  c.h.t.service.SchedulerService – students written
+192699 [task-5] INFO  c.h.t.service.SchedulerService – writing universities
+192746 [task-5] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 45 ms
+192754 [task-5] INFO  c.h.t.service.SchedulerService – universities written
+192755 [task-5] INFO  c.h.t.service.SchedulerService – entities written
+192755 [task-5] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 88 ms
+252698 [task-11] INFO  c.h.t.service.SchedulerService – deleting early backup files
+252702 [task-11] INFO  c.h.t.service.SchedulerService – early backup files deleted
+252703 [task-11] INFO  c.h.t.service.SchedulerService – writing entities
+252706 [task-11] INFO  c.h.t.service.SchedulerService – writing students
+252725 [task-11] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 5 ms
+252735 [task-11] INFO  c.h.t.service.SchedulerService – students written
+252735 [task-11] INFO  c.h.t.service.SchedulerService – writing universities
+252779 [task-11] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 43 ms
+252788 [task-11] INFO  c.h.t.service.SchedulerService – universities written
+252788 [task-11] INFO  c.h.t.service.SchedulerService – entities written
+252788 [task-11] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 90 ms
+312660 [task-12] INFO  c.h.t.service.SchedulerService – deleting early backup files
+312666 [task-12] INFO  c.h.t.service.SchedulerService – early backup files deleted
+312666 [task-12] INFO  c.h.t.service.SchedulerService – writing entities
+312666 [task-12] INFO  c.h.t.service.SchedulerService – writing students
+312684 [task-12] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 12 ms
+312693 [task-12] INFO  c.h.t.service.SchedulerService – students written
+312693 [task-12] INFO  c.h.t.service.SchedulerService – writing universities
+312743 [task-12] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 50 ms
+312751 [task-12] INFO  c.h.t.service.SchedulerService – universities written
+312752 [task-12] INFO  c.h.t.service.SchedulerService – entities written
+312752 [task-12] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 92 ms
+372678 [task-13] INFO  c.h.t.service.SchedulerService – deleting early backup files
+372683 [task-13] INFO  c.h.t.service.SchedulerService – early backup files deleted
+372683 [task-13] INFO  c.h.t.service.SchedulerService – writing entities
+372683 [task-13] INFO  c.h.t.service.SchedulerService – writing students
+372694 [task-13] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 6 ms
+372699 [task-13] INFO  c.h.t.service.SchedulerService – students written
+372700 [task-13] INFO  c.h.t.service.SchedulerService – writing universities
+372735 [task-13] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 33 ms
+372740 [task-13] INFO  c.h.t.service.SchedulerService – universities written
+372740 [task-13] INFO  c.h.t.service.SchedulerService – entities written
+372740 [task-13] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 63 ms
+432685 [task-14] INFO  c.h.t.service.SchedulerService – deleting early backup files
+432695 [task-14] INFO  c.h.t.service.SchedulerService – early backup files deleted
+432695 [task-14] INFO  c.h.t.service.SchedulerService – writing entities
+432695 [task-14] INFO  c.h.t.service.SchedulerService – writing students
+432715 [task-14] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 9 ms
+432723 [task-14] INFO  c.h.t.service.SchedulerService – students written
+432723 [task-14] INFO  c.h.t.service.SchedulerService – writing universities
+432764 [task-14] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 40 ms
+432771 [task-14] INFO  c.h.t.service.SchedulerService – universities written
+432772 [task-14] INFO  c.h.t.service.SchedulerService – entities written
+432772 [task-14] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 87 ms
+492669 [task-15] INFO  c.h.t.service.SchedulerService – deleting early backup files
+492673 [task-15] INFO  c.h.t.service.SchedulerService – early backup files deleted
+492674 [task-15] INFO  c.h.t.service.SchedulerService – writing entities
+492674 [task-15] INFO  c.h.t.service.SchedulerService – writing students
+492691 [task-15] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 5 ms
+492700 [task-15] INFO  c.h.t.service.SchedulerService – students written
+492700 [task-15] INFO  c.h.t.service.SchedulerService – writing universities
+492743 [task-15] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 43 ms
+492750 [task-15] INFO  c.h.t.service.SchedulerService – universities written
+492750 [task-15] INFO  c.h.t.service.SchedulerService – entities written
+492750 [task-15] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 81 ms

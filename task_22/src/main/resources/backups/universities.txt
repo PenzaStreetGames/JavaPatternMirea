@@ -1,2 +1,10 @@
-UniversityDto{id=1, name='mirea', creationDate=1947-05-28, students=[StudentDto{id=1, firstName='Pavel', lastName='Solomatin', universityId=1}, StudentDto{id=2, firstName='Aboba', lastName='Abobov', universityId=1}]}
+UniversityDto{id=1, name='mirea', creationDate=1947-05-28, students=[StudentDto{id=1, firstName='Pavel', lastName='Solomatin', universityId=1}, StudentDto{id=2, firstName='Aboba', lastName='Abobov', universityId=1}, StudentDto{id=3, firstName='Pavel', lastName='Solomatin', universityId=1}, StudentDto{id=4, firstName='Aboba', lastName='Abobov', universityId=1}, StudentDto{id=5, firstName='Pavel', lastName='Solomatin', universityId=1}, StudentDto{id=6, firstName='Aboba', lastName='Abobov', universityId=1}, StudentDto{id=7, firstName='Pavel', lastName='Solomatin', universityId=1}, StudentDto{id=8, firstName='Aboba', lastName='Abobov', universityId=1}, StudentDto{id=9, firstName='Pavel', lastName='Solomatin', universityId=1}, StudentDto{id=10, firstName='Aboba', lastName='Abobov', universityId=1}]}
 UniversityDto{id=2, name='pgu', creationDate=1943-07-03, students=[]}
+UniversityDto{id=3, name='mirea', creationDate=1947-05-28, students=[]}
+UniversityDto{id=4, name='pgu', creationDate=1943-07-03, students=[]}
+UniversityDto{id=5, name='mirea', creationDate=1947-05-28, students=[]}
+UniversityDto{id=6, name='pgu', creationDate=1943-07-03, students=[]}
+UniversityDto{id=7, name='mirea', creationDate=1947-05-28, students=[]}
+UniversityDto{id=8, name='pgu', creationDate=1943-07-03, students=[]}
+UniversityDto{id=9, name='mirea', creationDate=1947-05-28, students=[]}
+UniversityDto{id=10, name='pgu', creationDate=1943-07-03, students=[]}

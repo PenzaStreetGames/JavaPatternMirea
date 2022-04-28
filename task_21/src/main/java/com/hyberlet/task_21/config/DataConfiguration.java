@@ -22,7 +22,7 @@ public class DataConfiguration {
         mailSender.setHost("smtp.yandex.ru");
         mailSender.setPort(465);
 
-        mailSender.setUsername("gamba232@yandex.ru");
+        mailSender.setUsername("**********");
         //mailSender.setPassword("jdyjdxlhvbwkjgkq");
         mailSender.setPassword("rakcytxmttzzmedq");
 

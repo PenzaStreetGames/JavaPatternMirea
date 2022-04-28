@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hyberlet</groupId>
-	<artifactId>task_15</artifactId>
+	<artifactId>task_17</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>task_15</name>
-	<description>Java Pattern Mirea task 15</description>
+	<name>task_17</name>
+	<description>Java Pattern Mirea task 17</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

@@ -37,7 +37,7 @@ public class MailService {
         message.setSubject(subject);
         message.setText(o.toString());
 
-        //javaMailSender.send(message);
+        javaMailSender.send(message);
     }
 
 }
