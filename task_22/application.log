@@ -4719,3 +4719,17 @@ java.lang.NullPointerException: Cannot invoke "com.hyberlet.task_22.model.Univer
 492750 [task-15] INFO  c.h.t.service.SchedulerService – universities written
 492750 [task-15] INFO  c.h.t.service.SchedulerService – entities written
 492750 [task-15] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 81 ms
+552663 [task-16] INFO  c.h.t.service.SchedulerService – deleting early backup files
+552667 [task-16] INFO  c.h.t.service.SchedulerService – early backup files deleted
+552667 [task-16] INFO  c.h.t.service.SchedulerService – writing entities
+552667 [task-16] INFO  c.h.t.service.SchedulerService – writing students
+552690 [task-16] INFO  c.h.task_22.aspects.LoggingAspect – getStudents: 6 ms
+552696 [task-16] INFO  c.h.t.service.SchedulerService – students written
+552696 [task-16] INFO  c.h.t.service.SchedulerService – writing universities
+552735 [task-16] INFO  c.h.task_22.aspects.LoggingAspect – getUniversities: 39 ms
+552743 [task-16] INFO  c.h.t.service.SchedulerService – universities written
+552743 [task-16] INFO  c.h.t.service.SchedulerService – entities written
+552743 [task-16] INFO  c.h.task_22.aspects.LoggingAspect – doBackup: 80 ms
+559064 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+559066 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+559071 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
