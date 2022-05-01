@@ -1,15 +1,11 @@
-package com.hyberlet.task_23.controller;
+package com.hyberlet.task_24.controller;
 
-import com.hyberlet.task_23.model.AppUser;
-import com.hyberlet.task_23.service.AppUserDetailsService;
-import com.hyberlet.task_23.service.AppUserService;
+import com.hyberlet.task_24.model.AppUser;
+import com.hyberlet.task_24.service.AppUserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.Optional;
 
 @RestController
 public class AuthController {

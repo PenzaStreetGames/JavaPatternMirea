@@ -1,0 +1,2 @@
+UniversityDto{id=null, name='mirea', creationDate=1947-05-28, students=[]}
+UniversityDto{id=null, name='pgu', creationDate=1943-07-03, students=[]}
